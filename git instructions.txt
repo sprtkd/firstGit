@@ -40,3 +40,7 @@ These are instructions for a new git repo:
 	git remote add origin link
 	git push -u origin master
 
+11. To sync remote with local repo:
+	git pull
+
+
