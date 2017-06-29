@@ -1,0 +1,42 @@
+These are instructions for a new git repo:
+-----------------------------------------------------
+
+1. Make a new folder and cd to it:
+	git init
+
+2. Add new stuff
+
+	git add (file)
+
+3. To save the change->
+
+	git commit -m "comment"
+
+4. To view changes 
+
+	git log
+
+	git log --author="authorName" (if you are collabing)
+
+5. To know if new stuff is pending
+
+	git status
+
+6. Workflow
+	work > staging area > repository
+
+7. To know what changes have been made:
+	git diff
+
+8. Difference between staging area and repo
+	git diff --staged
+
+9. Remove files:
+	git rm file
+
+10. To publish it online:
+	Make a new repo on github
+
+	git remote add origin link
+	git push -u origin master
+
